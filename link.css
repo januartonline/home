@@ -35,7 +35,7 @@
 }
 .r{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: #fff;
     margin-left: 0;
     margin-right: 0;
@@ -44,7 +44,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70vh;
+}
+ip{
+    /*font-family: "Sacramento", cursive;*/
+    font-family: 'sacramento';
+    font-size: 450%;
+    color: #fff;
 }
 
 @media only screen and (max-width: 600px){
@@ -62,5 +67,8 @@
     }
     .r{
         flex-direction: column;
+    }
+    ip{
+        font-size: 350%;
     }
 }
